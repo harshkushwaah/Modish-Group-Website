@@ -11,7 +11,9 @@ app.get('/', (req, res) => {
     res.render("home");
 });
 
-
+app.get('/about-us', (req, res) => {
+    res.render("about");
+});
 
 
 

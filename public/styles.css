@@ -159,7 +159,7 @@ padding-bottom: 70px;
     font-weight: 500;
   
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 
 }
@@ -350,33 +350,88 @@ footer{
   border-radius: 15px;
 }
 .search-box:focus {
-	box-shadow: 0 0 15px 5px #b0e0ee;
-	border: 2px solid #bebede;
+	box-shadow: 0 0 15px 5px #a1cad6;
+	border: 2px solid #a8c1d9;
 }
 
 .search-box:not(:valid) ~ .close-icon {
 	display: none;
 }
 
-
-.btn-white{
-  opacity: 1;
-  border:solid 2px #fff;
-  background-color:#f0f9ff; ;
-  color: #2863A2 !important;
+.btn-light{
+  color: #2863A2;
+  background: #a8c1d9
+  ;
+  border: 1px #a8c1d9  solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 11pt;
+  outline: none;
 }
-.btn-white:hover{
-  border:solid 2px #fff;
-  background: #2863A2;
-  color: white !important;
+
+.btn-light:hover {
+  /* border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA; */
+  color: #2863A2;
+  background: #F7F7F7;
+}
+
+.btn-light:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+.submit{
+padding-right: 170px;
+ float: right;
 }
 
 
-
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* For mobile phones: */
-.hero{
-
+.about{
+  padding: 100px 100px;
+ display: grid;
+  align-items:center;
 }
 
+.about-text span{
+  display: none;
 }
+}
+
+/* -------------------------about us page --------------------------------- */
+.banner{ 
+height: 100vh;
+background-image: url("images/Mask.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+
+.banner #modelbanner{
+height: 60%;}
+.banner2{
+  height: 600px;
+  width: 100%;
+  background-image: url("images/coal.png");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+.head{
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 500;}
+  .text1{
+   
+    float: right;
+    padding-top: 330px;
+    padding-right: 370px;
+   
+    }
+    .but{
+      padding-top: 10px;
+    }
