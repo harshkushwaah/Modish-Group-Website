@@ -15,6 +15,7 @@ font: unset;
   
 }
 body{
+  overflow-x:hidden;
     background-color:white;
     font-family: Poppins;
     font-weight: 400;
@@ -30,8 +31,8 @@ body{
 }
 /* //////////////////////////////////////////////////////////////HOME CSS//////////////////////////////////////////////////////////////////////////////////////////// */
 /* navbar css */
-header{
-  width: 100%;
+.header{
+ 
   position: fixed;
   z-index: 3;
   left: 10%;
@@ -159,7 +160,7 @@ padding-bottom: 70px;
     font-weight: 500;
   
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
 
 }
@@ -226,15 +227,6 @@ padding-bottom: 70px;
   width:auto;
   height:300px;
 }
-
-
-
-
-
-
-
-
-
 
  /* footer */
  .GIT{
@@ -405,6 +397,9 @@ height: 100vh;
 background-image: url("images/Mask.png");
 background-position: center;
 background-repeat: no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
 background-size: cover;
 overflow: hidden;
 }
@@ -420,6 +415,58 @@ background-repeat: no-repeat;
 background-size: cover;
 overflow: hidden;
 }
+.banner3{
+background-color: #c7d6e3;
+height: 500px;
+justify-content: center;
+}
+.banner4{  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("images/furniture.png");
+    filter: brightness(80%);
+ 
+  height:700px;
+  width: 100%;
+  
+}
+.banner5{
+  background-image: url("images/shoes.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height:700px;
+  width: 100%;
+}
+.banner6{
+  background-image: url("images/cycles.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height:700px;
+  width: 100%;
+}
+.banner7{
+  background-image: url("images/spices.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height:700px;
+  width: 100%;
+}
+.abouttext{
+
+  margin:150;
+  padding-left:150;
+padding-top:100;
+/* justify-content: center; */
+/* align-items: center; */
+/* align-content: center; */
+}
 .head{
   text-align: center;
   width: 100%;
@@ -432,6 +479,45 @@ overflow: hidden;
     padding-right: 370px;
    
     }
+
+    .text2{
+      display: block;
+      justify-content: center;
+      padding-left: 70px;
+      padding-top: 170px;
+      
+     
+      }
     .but{
-      padding-top: 10px;
+      margin-bottom: 25px;
+     }
+    .text3{
+      padding-left: 70px;
+      padding-top: 140px;
+     }
+     .ban{
+      font-size: 55px;
+      line-height: 5px;
+       margin: 0;
+       padding: 0;
+       margin-bottom: 30px;
+     }
+     .ban span{
+       margin-top: -7px;
+     }
+     @media screen and (max-width: 768px) {
+    .ban{
+      height: 60vh;
+      margin-bottom: 17px;
+      background-size: contain;
     }
+    }
+    @media screen and (max-width: 1140px) {
+      .ban{
+        font-size: 55px;
+        background-size: contain;
+      } 
+      
+      
+      
+      }
