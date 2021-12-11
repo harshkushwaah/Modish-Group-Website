@@ -23,7 +23,12 @@ body{
 }
 
 
-
+.GIT h1{
+  font-size: 45px;
+    color: white;
+    padding-left: 108px;
+    
+}
 .h1, h1{
     
     font-weight: 700px;
@@ -45,9 +50,6 @@ body{
       color: #2863A2;
 
 }
-
-
-
 
 
 /* hero section css */
@@ -150,19 +152,28 @@ place-items: left;
 
 font-family: 'Poppins', sans-serif;
 padding-bottom: 70px;
-
+padding-right: 0;
 }
 .about-head{
+  font-size: 50px;
     color: #2863A2;
+}
+.about-head span{
+  font-size: 55px;
 }
 
 .about-text{
     font-weight: 500;
   
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 20px;
+}
+.about-text span{
+  font-size: 25px;
+}
 
-
+.text1,.text2,.text3 span{
+  font-size: 55px;
 }
 
 /* parallax 2 */
@@ -199,18 +210,21 @@ padding-bottom: 70px;
   left: 122px;
 }
 .roow{
+  display: flex;
+  justify-content: center;
     padding-left:80px;
     padding-top: 90px;
+    padding-bottom: 20px;
 }
 .card{
   
-  padding-top: 7%;
+  padding-top: 10%;
   padding-bottom: 2%;
     display: flex;
     align-items: center;
     background-color: #e6f1f8;
     border: 0px;
-    padding-right: px;
+    
     margin: 0;
     position: relative;
 }
@@ -219,7 +233,7 @@ padding-bottom: 70px;
     color:black;
     background-color: #92C0E2;
     position: absolute;
-    top: 310px;
+    top: 340px;
     width: 200px;
 }
 
@@ -227,7 +241,77 @@ padding-bottom: 70px;
   width:auto;
   height:300px;
 }
+.products h1{
+  font-size: 45px;
+}
+.products span{
+  font-size: 45px;
 
+}@media only screen and (max-width: 1150px) {
+  .card a{
+  
+    position: absolute;
+    top: 310px;
+    
+}}
+@media screen and (max-width: 900px) {
+  .card a{
+  
+    position: absolute;
+    top: 300px;
+    
+}}
+@media screen and (max-width: 600px) {
+  .card a{
+  
+    position: absolute;
+    top: 245px;
+    
+}
+
+
+
+
+.roow{
+  padding-left:3px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.about-head
+  {
+    font-size: 30px;
+  }
+  .about-head span
+  {
+    font-size: 30px;
+  }
+  .products h1{
+  font-size: 30px;
+
+  }
+  .about-text{
+    font-size: 17px;
+  }
+  .GIT h1{
+    font-size: 30px;
+  }
+  .text1,.text2,.text3 span{
+    font-size: 30px;
+  }
+  .GIT{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 890px) {
+  .card a{
+  
+    position: absolute;
+    top: 229px;
+    
+}
+}
  /* footer */
  .GIT{
     background-color:#7fa2c6;
@@ -236,11 +320,7 @@ padding-bottom: 70px;
     display: flex;
     align-items: center;
 }
-.GIT h1{
-    color: white;
-    padding-left: 108px;
-    
-}
+
 footer{
   padding-top: 145px;
   
@@ -248,7 +328,6 @@ footer{
     width:100%;
     background-color: #2863A2;
     color:#f0f9ff;
-
 }
 
  
@@ -319,9 +398,7 @@ footer{
   padding-left: 20px;
   
 }
-/* .message{
-  padding-left: 100px;
-} */
+
 .search-box{
 	position: relative;
 	padding: 10px;
@@ -361,10 +438,13 @@ footer{
   font-size: 11pt;
   outline: none;
 }
+.btn-light a{
+  color: #2863A2;
+ 
+}
 
 .btn-light:hover {
-  /* border: 1px #C6C6C6 solid;
-  box-shadow: 1px 1px 1px #EAEAEA; */
+  
   color: #2863A2;
   background: #F7F7F7;
 }
@@ -392,6 +472,11 @@ padding-right: 170px;
 }
 
 /* -------------------------about us page --------------------------------- */
+.banner{
+  display: grid;
+  justify-content: center;
+}
+
 .banner{ 
 height: 100vh;
 background-image: url("images/Mask.png");
@@ -404,8 +489,8 @@ background-size: cover;
 overflow: hidden;
 }
 
-.banner #modelbanner{
-height: 60%;}
+/* .banner #modelbanner{
+height: 60%;} */
 .banner2{
   height: 600px;
   width: 100%;
@@ -417,7 +502,7 @@ overflow: hidden;
 }
 .banner3{
 background-color: #c7d6e3;
-height: 500px;
+height: 600px;
 justify-content: center;
 }
 .banner4{  background-position: center;
@@ -449,15 +534,7 @@ justify-content: center;
   height:700px;
   width: 100%;
 }
-.banner7{
-  background-image: url("images/spices.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  height:700px;
-  width: 100%;
-}
+
 .abouttext{
 
   margin:150;
@@ -472,29 +549,13 @@ padding-top:100;
   width: 100%;
   font-size: 50px;
   font-weight: 500;}
-  .text1{
-   
-    float: right;
-    padding-top: 330px;
-    padding-right: 370px;
-   
-    }
 
-    .text2{
-      display: block;
-      justify-content: center;
-      padding-left: 70px;
-      padding-top: 170px;
-      
-     
-      }
+
+   
     .but{
       margin-bottom: 25px;
      }
-    .text3{
-      padding-left: 70px;
-      padding-top: 140px;
-     }
+    
      .ban{
       font-size: 55px;
       line-height: 5px;
@@ -505,19 +566,56 @@ padding-top:100;
      .ban span{
        margin-top: -7px;
      }
-     @media screen and (max-width: 768px) {
-    .ban{
-      height: 60vh;
-      margin-bottom: 17px;
-      background-size: contain;
+     
+   .text2{
+    display: block;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 170px;
+    
     }
-    }
+    
+    .text3{
+      display: block;
+      justify-content: center;
+      padding-left: 70px;
+      padding-top: 140px;
+     }
     @media screen and (max-width: 1140px) {
       .ban{
         font-size: 55px;
         background-size: contain;
       } 
-      
-      
-      
+      .banner, .banner2, .banner3, .banner4, .banner5, .banner6{
+        height: 550px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;}
       }
+   
+      @media screen and (max-width: 838px) {
+        .ban{
+          margin-bottom: 17px;
+          background-size: contain;
+        }
+        .banner, .banner2, .banner3, .banner4, .banner5, .banner6{
+          height: 420px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          overflow: hidden;}
+        }
+      @media screen and (max-width: 550px) {
+        .ban{
+          font-size: 15px;
+          background-size: contain;
+        } 
+        .banner, .banner2, .banner3, .banner4, .banner5, .banner6{
+          height: 300px;background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          overflow: hidden;
+        }
+        }
+        

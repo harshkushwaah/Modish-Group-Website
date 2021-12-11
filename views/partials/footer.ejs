@@ -1,17 +1,17 @@
 <div class="container-fluid GIT">
-    <h1 class="about-head "  style="font-size: 45px; font-weight: 700;"> Get in touch <span style="font-size: 45px; font-weight: 500; padding-top: 0px;">with us</span></h1>
+    <h1 class="about-head"  style="font-weight: 700;"> Get in touch <span style=" font-weight: 500; padding-top: 0px;">with us</span></h1>
     
 </div>
 
-<footer class="footer-dark"> <div class="container-fluid" style="padding-left: 80px;">
+<footer class="footer-dark" id="contact"> <div class="container-fluid" style="padding-left: 80px;">
     <div class="row">
         <div class="col-sm-12  col-lg-3 item" >
             <h3>Our Company</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our product range</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="#products">Our product range</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
         <div class="col-sm-12  col-lg-3 item">
@@ -27,7 +27,7 @@
                 </div></ul>
                         <div class="row" style="opacity: 0.9; padding-left: 20px; padding-bottom: 10px;">
                             
-                            <button class="btn btn-light" >Email</button>
+                            <button class="btn btn-light" ><a href="mailto:">Email</a></button>
                             
                            </div>
                     
@@ -45,10 +45,11 @@
         </div>
         <div class=" col-lg-6 item text">
             <h3>Leave a message</h3>
-            <br action="/" method="post">
-                <textarea name="message"  required class="search-box" placeholder="" ></textarea></br>
-              <div class="submit">  <button class="btn btn-light " >Submit</button>
+            <form action="/" method="post"  >
+                <textarea type="text" name="messages"  required class="search-box" placeholder="" ></textarea>
+              <div class="submit"><button type="submit" class="btn btn-light " >Submit</button>
               </div>
+            </form>
         </div>
       
     <p class="copyright">Modish Group © 2021</p>
