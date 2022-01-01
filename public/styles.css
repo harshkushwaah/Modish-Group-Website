@@ -269,9 +269,6 @@ padding-right: 0;
     
 }
 
-
-
-
 .roow{
   padding-left:3px;
   padding-top: 100px;
@@ -283,7 +280,7 @@ padding-right: 0;
   }
   .about-head span
   {
-    font-size: 30px;
+    font-size: 26px;
   }
   .products h1{
   font-size: 30px;
@@ -296,7 +293,7 @@ padding-right: 0;
     font-size: 30px;
   }
   .text1,.text2,.text3 span{
-    font-size: 30px;
+    font-size: 26px;
   }
   .GIT{
     padding: 0;
@@ -608,14 +605,32 @@ padding-top:100;
         }
       @media screen and (max-width: 550px) {
         .ban{
-          font-size: 15px;
+          font-size: 12px;
           background-size: contain;
-        } 
-        .banner, .banner2, .banner3, .banner4, .banner5, .banner6{
-          height: 300px;background-position: center;
+          align-items: center;
+          height: 300px;
+          background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
           overflow: hidden;
+          
+        } 
+        .text1{
+          padding-left:60px;
+        }
+        .banfirst{
+          padding-top: 25px;
+        }
+        .text2,.text3{
+          padding-top: 20%;
+          
+        }
+        .text3{
+          padding-left: 50px;
+        }
+        .banner3 img{
+          display: none;
+          
         }
         }
         /* developer :-- Harsh Kushwah 
