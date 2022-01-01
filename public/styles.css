@@ -298,7 +298,7 @@ padding-right: 0;
   .GIT{
     padding: 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
   }
 }
 @media screen and (max-width: 890px) {
@@ -631,6 +631,9 @@ padding-top:100;
         .banner3 img{
           display: none;
           
+        }
+        h1.about-head{
+          padding-left: 30px;
         }
         }
         /* developer :-- Harsh Kushwah 
